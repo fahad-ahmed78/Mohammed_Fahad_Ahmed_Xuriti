@@ -1,0 +1,120 @@
+body {
+  background-color: #182b3a;
+  background-image: linear-gradient(315deg, #182b3a 0%, #20a4f3 74%);
+}
+
+.dashboard-box {
+  padding: 2rem;
+  background: lightblue;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-title {
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.dashboard-subtitle {
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: black;
+}
+
+.user-card {
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: #ffffff;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  text-align: center;
+  position: relative;
+}
+
+.user-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background-color: lightgreen;
+}
+
+.user-avatar {
+  width: 56px;
+  height: 56px;
+  margin: 0 auto 1rem;
+  background-color: #3f51b5;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.user-divider {
+  margin: 0.5rem 0;
+}
+
+.user-button {
+  margin: 0.5rem;
+}
+
+.dashboard-button {
+  margin: 1rem 0.5rem;
+}
+
+.dashboard-logout-button {
+  margin: 2rem auto;
+  background-color: #d32f2f;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  display: block;
+}
+
+.dashboard-logout-button:hover {
+  background-color: #b71c1c;
+}
+
+.dialog .MuiDialog-paper {
+  padding: 1.5rem;
+  border-radius: 12px;
+  animation: slideIn 0.3s ease-out;
+}
+
+.dialog-title {
+  font-weight: 700;
+  color: #333;
+}
+
+.dialog-input {
+  margin-bottom: 1rem;
+}
+
+.dialog-button {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dialog-button:hover {
+  background-color: #0056b3;
+  color: #ffffff;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.user-info {
+  text-align: center;
+  margin-bottom: 2rem;
+}

@@ -1,0 +1,62 @@
+.register-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.register-box {
+  background: lightcyan;
+  padding: 1.5rem;
+  border: 1px solid lightpink;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 370px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.register-box:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.register-title {
+  margin-bottom: 1rem;
+  font-weight: 800;
+  color: #333;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.register-input {
+  margin-bottom: 1rem;
+}
+
+.register-button {
+  background: #007bff;
+  color: #fff;
+
+  &:hover {
+    background: #0056b3;
+  }
+}
+
+.register-footer {
+  margin-top: 1rem;
+  text-align: center;
+  color: #555;
+}
+
+.register-footer a {
+  color: #007bff;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
